@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "/nautilus-main/flsk.py",
+      "src": "nautilus-main/flsk.py",
       "use": "@vercel/python"
     }
   ],
