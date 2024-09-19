@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "nautilus-main/flsk.py",
+      "src": "test/nautilus-main/app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "nautilus-main/flsk.py"
+      "dest": "/test/nautilus-main/app.py"
     }
   ]
 }
